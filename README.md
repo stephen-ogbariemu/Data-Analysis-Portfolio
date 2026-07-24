@@ -24,10 +24,10 @@ I'm a Data Analyst with experience in transforming raw data into meaningful insi
 | Project | Tools | Status |
 |---------|-------|--------|
 | 📊 Retail Sales Dashboard | Power BI | ✅ Completed |
-| 👥 HR Dashboard | Power BI | 🚧 Coming Soon |
-| 👟 Adidas Sales Dashboard | Power BI | 🚧 Coming Soon |
-| 🍎 Apple Sales Dashboard | Power BI | 🚧 Coming Soon |
-| 📈 Coca-Cola Sales Dashboard | Excel | 🚧 Coming Soon |
+| 👥 HR Dashboard | Power BI | ✅ Completed |
+| 👟 Adidas Sales Dashboard | Power BI | ✅ Completed |
+| 🍎 Apple Sales Dashboard | Power BI | ✅ Completed |
+| 📈 Coca-Cola Sales Dashboard | Excel | ✅ Completed |
 | 🎬 Netflix Data Analysis | SQL | 🚧 Coming Soon |
 
 ---
