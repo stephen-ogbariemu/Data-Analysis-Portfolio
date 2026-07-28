@@ -1,42 +1,151 @@
-# 📊 Stephen Ogbariemu | Data Analyst Portfolio
+# 👋 Hi, I'm Stephen Ogbariemu
 
-Welcome to my Data Analysis Portfolio.
+## Data Analyst | SQL | Excel | Power BI | Python
 
-I'm a Data Analyst with experience in transforming raw data into meaningful insights using **Excel, SQL, Power BI, and Python**. This portfolio showcases projects that demonstrate my analytical, visualization, and problem-solving skills.
+I am a passionate Data Analyst with experience transforming raw data into meaningful insights that support business decision-making. My projects demonstrate skills in data cleaning, visualization, SQL querying, dashboard development, and business intelligence.
 
 ---
 
-## 🛠️ Skills
+# 🛠 Technical Skills
 
-- Microsoft Excel
-- SQL (MySQL)
-- Power BI
-- Python (Pandas, NumPy, Matplotlib)
+| Category | Skills |
+|----------|--------|
+| Programming | SQL, Python |
+| Visualization | Power BI, Excel |
+| Database | MySQL |
+| Data Analysis | Data Cleaning, EDA, Dashboard Design |
+| Office Tools | Microsoft Excel |
+
+---
+
+# 📂 Featured Projects
+
+## 🛒 Walmart Sales Analysis (SQL)
+
+📷 **Project Screenshot**
+
+**Tools:** SQL, MySQL
+
+### Business Questions Solved
+
+- Top-performing stores
+- Weekly sales trends
+- Holiday sales analysis
+- Department performance
+- Store comparison
+
+**Key Skills**
+
+- Complex SQL Queries
 - Data Cleaning
-- Data Visualization
-- Dashboard Development
-- Business Intelligence
+- Aggregation
+- Window Functions
+- Business Insights
+
+➡ View Project
 
 ---
 
-## 📂 Featured Projects
+## 📊 Retail Sales Dashboard
 
-| Project | Tools | Status |
-|---------|-------|--------|
-| 📊 Retail Sales Dashboard | Power BI | ✅ Completed |
-| 👥 HR Dashboard | Power BI | 🚧 Coming Soon |
-| 👟 Adidas Sales Dashboard | Power BI | 🚧 Coming Soon |
-| 🍎 Apple Sales Dashboard | Power BI | 🚧 Coming Soon |
-| 📈 Coca-Cola Sales Dashboard | Excel | 🚧 Coming Soon |
-| 🎬 Netflix Data Analysis | SQL | 🚧 Coming Soon |
+📷 Dashboard Screenshot
+
+**Tools**
+
+- Power BI
+- DAX
+- Power Query
+
+### Dashboard Highlights
+
+- Revenue Analysis
+- Product Performance
+- Customer Segmentation
+- Regional Sales
 
 ---
 
-## 📫 Connect With Me
+## 👥 HR Analytics Dashboard
 
-- **GitHub:** https://github.com/stephen-ogbariemu
-- **LinkedIn:** https://www.linkedin.com/in/stephen-ogbariemu-69050815b
+📷 Dashboard Screenshot
+
+Tools:
+
+- Power BI
+
+Highlights
+
+- Employee Attrition
+- Gender Analysis
+- Salary Distribution
+- Department Performance
 
 ---
 
-⭐ Thank you for visiting my portfolio!
+## 🍎 Apple Sales Dashboard
+
+📷 Dashboard Screenshot
+
+Tools:
+
+- Power BI
+
+Highlights
+
+- Sales Trend
+- Top Products
+- Profit Analysis
+- Customer Insights
+
+---
+
+## 🥤 Coca-Cola Sales Dashboard
+
+📷 Dashboard Screenshot
+
+Tools:
+
+- Excel
+
+Highlights
+
+- Sales Performance
+- Profit
+- Monthly Trends
+- Product Analysis
+
+---
+
+# 📜 Certificates
+
+- Data Analysis Certificate
+- Supply Chain Project Management
+
+---
+
+# 💼 Experience
+
+**Inventory Officer**
+Arbico Plc
+
+Responsibilities
+
+- Inventory Management
+- Stock Analysis
+- Reporting
+- Store Operations
+
+---
+
+# 📫 Connect With Me
+
+📧 Email:
+your email
+
+💼 LinkedIn
+
+GitHub
+
+---
+
+⭐ Thanks for visiting my portfolio!
