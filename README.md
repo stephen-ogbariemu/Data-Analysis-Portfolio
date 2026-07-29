@@ -48,6 +48,15 @@ I am a passionate Data Analyst with experience transforming raw data into meanin
 
 ## 📊 Retail Sales Dashboard
 
+| Project | Tools | Status |
+|---------|-------|--------|
+| 📊 Retail Sales Dashboard | Power BI | ✅ Completed |
+| 👥 HR Dashboard | Power BI | ✅ Completed |
+| 👟 Adidas Sales Dashboard | Power BI | ✅ Completed |
+| 🍎 Apple Sales Dashboard | Power BI | ✅ Completed |
+| 📈 Coca-Cola Sales Dashboard | Excel | ✅ Completed |
+| 🎬 Netflix Data Analysis | SQL | 🚧 Coming Soon |
+
 📷 Dashboard Screenshot
 
 **Tools**
@@ -148,4 +157,4 @@ GitHub
 
 ---
 
-⭐ Thanks for visiting my portfolio!
+⭐ Thank you for visiting my portfolio!
