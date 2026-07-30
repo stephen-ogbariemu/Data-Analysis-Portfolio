@@ -31,6 +31,171 @@ The raw dataset packed multiple reviews into single comma-separated cells per pr
 | user_id | VARCHAR(50) | |
 | user_name | VARCHAR(200) | |
 
+## SQL Queries
+
+### Database & Table Setup
+
+```sql
+CREATE DATABASE amazon_sales;
+USE amazon_sales;
+
+CREATE TABLE products (
+    product_id VARCHAR(20) PRIMARY KEY,
+    product_name VARCHAR(500),
+    category_main VARCHAR(100),
+    category_sub VARCHAR(200),
+    discounted_price DECIMAL(10,2),
+    actual_price DECIMAL(10,2),
+    discount_percentage DECIMAL(5,2),
+    rating DECIMAL(3,2),
+    rating_count INT,
+    about_product TEXT
+);
+
+SELECT COUNT(*) AS Total_row FROM products;
+
+CREATE TABLE reviewers (
+    review_id VARCHAR(20) PRIMARY KEY,
+    product_id VARCHAR(20),
+    user_id VARCHAR(50),
+    user_name VARCHAR(200),
+    FOREIGN KEY (product_id) REFERENCES products(product_id)
+);
+
+SELECT p.product_name, r.user_name, r.review_id
+FROM products p
+JOIN reviewers r ON p.product_id = r.product_id
+LIMIT 5;
+```
+
+### Top-Rated Products with Meaningful Review Volume
+
+```sql
+SELECT 
+    product_name,
+    category_main,
+    rating,
+    rating_count,
+    discounted_price,
+    discount_percentage
+FROM products
+WHERE rating > 0
+ORDER BY rating DESC, rating_count DESC
+LIMIT 10;
+```
+
+### Which Category Has the Deepest Average Discounts?
+
+```sql
+SELECT 
+    category_main,
+    COUNT(*) AS num_products,
+    ROUND(AVG(discount_percentage), 1) AS avg_discount,
+    ROUND(AVG(rating), 2) AS avg_rating
+FROM products
+WHERE rating > 0
+GROUP BY category_main
+ORDER BY avg_discount DESC;
+```
+
+### Most-Reviewed Products (by actual review count in the dataset, not the site's aggregate `rating_count`)
+
+```sql
+SELECT 
+    p.product_name,
+    p.category_main,
+    p.rating,
+    COUNT(r.review_id) AS reviews_in_dataset
+FROM products p
+JOIN reviewers r ON p.product_id = r.product_id
+GROUP BY p.product_id, p.product_name, p.category_main, p.rating
+ORDER BY reviews_in_dataset DESC
+LIMIT 10;
+```
+
+### Reviewers Who Show Up Most Often Across Different Products
+
+```sql
+SELECT 
+    user_name,
+    user_id,
+    COUNT(DISTINCT product_id) AS products_reviewed
+FROM reviewers
+GROUP BY user_id, user_name
+ORDER BY products_reviewed DESC
+LIMIT 10;
+```
+
+### Products in the Catalog with Zero Linked Reviews
+
+```sql
+SELECT 
+    p.product_id,
+    p.product_name,
+    p.category_main,
+    p.rating_count
+FROM products p
+LEFT JOIN reviewers r ON p.product_id = r.product_id
+WHERE r.review_id IS NULL;
+```
+
+### Products Priced Above Their Own Category's Average
+
+```sql
+SELECT 
+    p.product_name,
+    p.category_main,
+    p.discounted_price,
+    (SELECT ROUND(AVG(discounted_price), 2)
+     FROM products p2
+     WHERE p2.category_main = p.category_main) AS category_avg_price
+FROM products p
+WHERE p.discounted_price > (
+    SELECT AVG(discounted_price)
+    FROM products p2
+    WHERE p2.category_main = p.category_main
+)
+ORDER BY p.category_main, p.discounted_price DESC
+LIMIT 15;
+```
+
+### Top 3 Highest-Rated Products Within Each Category (session-variable rank simulation)
+
+```sql
+SET @rank = 0, @prev_cat = '';
+
+SELECT product_name, category_main, rating, rating_count, rnk
+FROM (
+    SELECT 
+        product_name,
+        category_main,
+        rating,
+        rating_count,
+        @rank := IF(@prev_cat = category_main, @rank + 1, 1) AS rnk,
+        @prev_cat := category_main
+    FROM products
+    WHERE rating > 0
+    ORDER BY category_main, rating DESC, rating_count DESC
+) ranked
+WHERE rnk <= 3;
+```
+
+### Price vs. Category Average (correlated subqueries instead of window functions)
+
+```sql
+SELECT 
+    p.product_name,
+    p.category_main,
+    p.rating,
+    p.discounted_price,
+    (SELECT MAX(discounted_price) FROM products p2 WHERE p2.category_main = p.category_main) AS category_max_price,
+    p.discounted_price - (SELECT AVG(discounted_price) FROM products p2 WHERE p2.category_main = p.category_main) AS diff_from_cat_avg
+FROM products p
+WHERE p.rating > 0
+ORDER BY p.category_main, p.rating DESC
+LIMIT 20;
+```
+
 ## Data Cleaning Notes
 
 A few real-world data issues came up during import — documenting them here since identifying and resolving them was as much a part of this project as the SQL itself:
