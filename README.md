@@ -1,8 +1,7 @@
 # 👋 Hi, I'm Stephen Ogbariemu
-
 ## Data Analyst | SQL | Excel | Power BI | Python
 
-I am a passionate Data Analyst with experience transforming raw data into meaningful insights that support business decision-making. My projects demonstrate skills in data cleaning, visualization, SQL querying, dashboard development, and business intelligence.
+I am a data analyst in training with a background in inventory and supply chain operations, transforming raw data into insights that support business decision-making. My projects demonstrate skills in data cleaning, visualization, SQL querying, dashboard development, and business intelligence — backed by real-world operations experience in stock control and ERP systems.
 
 ---
 
@@ -10,7 +9,7 @@ I am a passionate Data Analyst with experience transforming raw data into meanin
 
 | Category | Skills |
 |----------|--------|
-| Programming | SQL, Python |
+| Programming | SQL, Python (in progress) |
 | Visualization | Power BI, Excel |
 | Database | MySQL |
 | Data Analysis | Data Cleaning, EDA, Dashboard Design |
@@ -20,141 +19,68 @@ I am a passionate Data Analyst with experience transforming raw data into meanin
 
 # 📂 Featured Projects
 
-## 🛒 Walmart Sales Analysis (SQL)
-
-📷 **Project Screenshot**
-
+## 🛒 Amazon Product & Reviews Analysis (SQL)
 **Tools:** SQL, MySQL
 
-### Business Questions Solved
-
-- Top-performing stores
-- Weekly sales trends
-- Holiday sales analysis
-- Department performance
-- Store comparison
+Normalized a messy flat-file product/review dataset into a clean relational schema (products + reviewers tables). Resolved real data quality issues — duplicate rows, unreliable delimited fields, encoding errors — then used joins, subqueries, and rank simulation (MySQL 5.7 has no window functions) for pricing and rating insights.
 
 **Key Skills**
-
-- Complex SQL Queries
+- Relational schema design
 - Data Cleaning
+- Joins & Subqueries
 - Aggregation
-- Window Functions
 - Business Insights
 
-➡ View Project
+➡ [View Project](./amazon-sql-project/README.md)
 
 ---
 
-## 📊 Retail Sales Dashboard
+## 📊 Dashboard Projects
 
 | Project | Tools | Status |
 |---------|-------|--------|
 | 📊 Retail Sales Dashboard | Power BI | ✅ Completed |
 | 👥 HR Dashboard | Power BI | ✅ Completed |
 | 👟 Adidas Sales Dashboard | Power BI | ✅ Completed |
-| 🍎 Apple Sales Dashboard | Power BI | ✅ Completed |
-| 📈 Coca-Cola Sales Dashboard | Excel | ✅ Completed |
-| 🎬 Netflix Data Analysis | SQL | 🚧 Coming Soon |
+| 🍎 Apple Sales Dashboard | Excel | ✅ Completed |
+| 📈 Coca-Cola Sales Dashboard | Power BI | ✅ Completed |
 
-📷 Dashboard Screenshot
-
-**Tools**
-
-- Power BI
-- DAX
-- Power Query
-
-### Dashboard Highlights
-
-- Revenue Analysis
-- Product Performance
+**Dashboard Highlights**
+- Revenue & Sales Trend Analysis
+- Product & Regional Performance
+- Employee Attrition & Salary Distribution
 - Customer Segmentation
-- Regional Sales
 
----
-
-## 👥 HR Analytics Dashboard
-
-📷 Dashboard Screenshot
-
-Tools:
-
-- Power BI
-
-Highlights
-
-- Employee Attrition
-- Gender Analysis
-- Salary Distribution
-- Department Performance
-
----
-
-## 🍎 Apple Sales Dashboard
-
-📷 Dashboard Screenshot
-
-Tools:
-
-- Power BI
-
-Highlights
-
-- Sales Trend
-- Top Products
-- Profit Analysis
-- Customer Insights
-
----
-
-## 🥤 Coca-Cola Sales Dashboard
-
-📷 Dashboard Screenshot
-
-Tools:
-
-- Excel
-
-Highlights
-
-- Sales Performance
-- Profit
-- Monthly Trends
-- Product Analysis
+*(Links to individual project folders/notebooks to be added as they're organized into this repo.)*
 
 ---
 
 # 📜 Certificates
-
-- Data Analysis Certificate
-- Supply Chain Project Management
+- Data Analysis and Visualization – DNDigitals Academy Ltd (2026)
+- Supply Chain Project Management – La Plage Metaverse (2025)
 
 ---
 
 # 💼 Experience
 
-**Inventory Officer**
-Arbico Plc
+**Inventory Officer** — Arbico Plc *(Feb 2025 – Present)*
+- Manage stock levels and inventory records for the Plant & Equipment department
+- Reduced stock discrepancies by 20% through improved stock control systems
+- Support ISO 9001:2015 and ISO 45001:2018 audit compliance through documentation and reporting
 
-Responsibilities
-
-- Inventory Management
-- Stock Analysis
-- Reporting
-- Store Operations
+**Warehouse Executive** — DAG Industries Nigeria Ltd *(Mar 2024 – Feb 2025)*
+- Maintained warehouse compliance and tracked material movement logs
+- Optimized space utilization and internal processes
 
 ---
+
+# 📄 Resume
+[Download my full resume (PDF)](./Stephen_Ogbariemu_CV_DataAnalyst.pdf)
 
 # 📫 Connect With Me
-
-📧 Email:
-your email
-
-💼 LinkedIn
-
-GitHub
+📧 Email: stephenamos536@gmail.com
+💼 [LinkedIn](https://linkedin.com/in/stephen-ogbariemu)
+🌐 [Portfolio Website](https://stephen-ogbariemu.github.io/stephen-ogbariemu/)
 
 ---
-
 ⭐ Thank you for visiting my portfolio!

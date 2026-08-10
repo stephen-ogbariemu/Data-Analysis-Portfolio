@@ -74,26 +74,24 @@ The dataset contains Coca-Cola sales records, including:
 
 ## 📷 Dashboard Preview
 
-![Dashboard](Dashboard.png)
+![Dashboard](Coca%20Cola%20Dashboard.png)
 
 ---
 
 ## 📈 Key Business Insights
 
-The dashboard enables users to:
-
-- Compare sales performance across multiple beverage brands.
-- Identify retailers generating the highest revenue.
-- Evaluate year-over-year sales growth.
-- Monitor quarterly business performance.
-- Support strategic sales and marketing decisions.
+- **Sales nearly quadrupled year-over-year.** Total sales grew from $2.42M in 2022 to $9.59M in 2023 — a ~296% increase.
+- **Coca-Cola is the top-performing brand**, generating $2.77M in total sales, narrowly ahead of Dasani Water ($2.39M) and Diet Coke ($2.06M).
+- **West Soda is the top retailer** by revenue at $3.24M, followed by BevCo ($2.79M) and FizzyCo ($2.42M) — Walmart trails the pack at $920K.
+- **Q3 2023 was the strongest quarter**, bringing in $2.81M in sales, with operating margins climbing steadily each quarter of 2023 (41.7% → 42.8% → 43.5% → 42.5%).
+- **Operating margin held steady around 42%** company-wide across both years, indicating consistent profitability even as sales volume scaled up.
 
 ---
 
 ## 📁 Project Files
 
-- `Coca-Cola Sales Dashboard.xlsx`
-- `Dashboard.png`
+- `Coca-Cola Sales Performance Dashboard.xlsx`
+- `Coca Cola Dashboard.png`
 - `README.md`
 
 ---
