@@ -1,0 +1,34 @@
+column,dtype,missing_count,missing_pct,n_unique,example_value
+pk,str,0,0.0,4,Opportunity#
+opportunity_id,str,0,0.0,5733,Opportunity#000000000GBD0AX3Z6VYRG7R75
+Badge,str,367,6.4,5365,"{""sk"":""Badge#000000000G87VEXNYKKKTJTKE9"",""ref_properties"":""{\""relation_id\"":\""K9MSIZ\""}""}"
+CareerAddOn,str,4825,84.2,908,"{""sk"":""CareerAddOn#000000000G8FT85VQ6BFCT0M0K"",""ref_properties"":""{\""accept_reject_reason\"":\""LGTM\"",\""relation_id\"":\""69EO7D\""}""}"
+category,str,2,0.0,13,Competition
+code,str,3,0.1,5729,M636023
+Cohort,str,21,0.4,5711,"{""sk"":""Cohort#000000000GWJV80KJCAEP0JMCF"",""ref_properties"":""{\""relation_id\"":\""FLJII2\""}""}"
+created_at,str,3,0.1,16,1.66E+12
+currency_type,str,342,6.0,7,USD
+current_editor,str,5516,96.2,18,amrit@vempower.org
+DropoutTransaction,str,5720,99.8,13,%22value%22: %225%22 } ] } }
+duration,str,2,0.0,108,300
+duration_type,str,4,0.1,17,minutes
+Eligibility,str,351,6.1,5381,"{""sk"":""Eligibility#000000000GNQAM21BYCRBX5Z27"",""ref_properties"":""{\""relation_id\"":\""L7Y3O8\""}""},{""sk"":""Eligibility#000000000G6DGARQ8VQYJBB8ZE"",""ref_properties"":""{\""relation_id\"":\""FY26Z3\""}""},{""sk"":""Eligibility#000000000GF6KQ9RF2HK4CE5K9"",""ref_properties"":""{\""relation_id\"":\""7W0GVA\""}""},{""sk"":""Eligibility#000000000GF0H68ZRC47Q6K4XE"",""ref_properties"":""{\""relation_id\"":\""YNHQCV\""}""}"
+fee,str,2,0.0,105,0
+image_link,str,8,0.1,3772,https://www.clipartkey.com/mpngs/m/56-563364_business-competition-competition-icon.png
+is_archived,str,5205,90.8,5,TRUE
+is_auto_approve,str,2,0.0,5,TRUE
+last_date_to_apply,str,3,0.1,22,1.69E+12
+location,str,976,17.0,21,WFM
+long_description,str,346,6.0,895,"Your future is in your hands, truly. Ideate and innovate a product that will be one of the solutions to future office spaces. Use the problem-solving skills to find out what is missing in today?s offices that you would like to create. Grab this opportunity to challenge yourself to think outside the box. Participate now! Your ideas are safe with us! Guidelines Do?s Send the entries strictly in PPT, PDF or MP4 form. Strictly adhere to the topic. All ideas must be original. Photo/Video must be clear with description. Don?ts Plagiarized content will be disqualified. Explicit content senders will be barred from participating in all GS contests. Submit only once. Judging criteria Entries will be judged solely on the basis of originality and practicality of the ideas adhering to the topic of the competition."
+microscholarship,str,3,0.1,162,500
+modified_at,str,2,0.0,14,1.69E+12
+name,str,3,0.1,5570,Mini Saga 3.0
+NotStartedTransaction,str,5719,99.8,14,%22case%22: %22uppercase%22
+Panellist,str,4560,79.5,1173,"{""sk"":""Panellist#000000000GJZDTG56N34DZP205"",""ref_properties"":""{\""relation_id\"":\""W2YUED\""}""}"
+Reward,str,367,6.4,5365,"{""sk"":""Reward#000000000GP9G70RKA2V5WXN5B"",""ref_properties"":""{\""relation_id\"":\""UYQ156\""}""},{""sk"":""Reward#000000000G5YNVK3VA2CRJJXJD"",""ref_properties"":""{\""relation_id\"":\""I30DXA\""}""},{""sk"":""Reward#000000000GS48VZTYCVPK90CE1"",""ref_properties"":""{\""relation_id\"":\""KIFXA7\""}""}"
+role,str,3840,67.0,429,Facilitator
+role_responsibility,str,4654,81.2,88,"<html><body><ul><li>Leading and mentoring a group of 5-10 students from around the world.</li><li>Conducting virtual meetings, interacting and following up with interns</li><li>Creating meaningful data reports</li></ul></body></html>"
+short_description,str,3,0.1,838,Express yourself in 50-words!
+summary,str,5532,96.5,85,cc
+Testimonial,str,4882,85.2,851,"{""sk"":""Testimonial#0000000010RY2C6SEZQ3HGA9CM"",""ref_properties"":""{\""relation_id\"":\""IOAAXG\""}""},{""sk"":""Testimonial#0000000010HZRZ2XH1P3SXPJB3"",""ref_properties"":""{\""relation_id\"":\""I7YPFH\""}""},{""sk"":""Testimonial#000000001054CYACFENVVTAKNN"",""ref_properties"":""{\""relation_id\"":\""7Q5155\""}""}"
+tracking_questions,str,1108,19.3,4625,"{""code"":""Team"",""is_required_for_badge_award"":""true"",""is_frozen"":""false"",""question"":""Onboarding Meeting"",""ans_type"":""boolean""},{""code"":""QA2VA2X"",""is_required_for_badge_award"":""false"",""is_frozen"":""false"",""question"":""Notes"",""ans_type"":""boolean""}"

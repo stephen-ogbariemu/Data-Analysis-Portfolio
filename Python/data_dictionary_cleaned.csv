@@ -1,0 +1,33 @@
+column,dtype,missing_count,missing_pct,n_unique,example_value
+opportunity_id,str,0,0.0,5730,Opportunity#000000000GBD0AX3Z6VYRG7R75
+category,str,2,0.0,10,Competition
+code,str,3,0.1,5726,M636023
+created_at,datetime64[ms],3,0.1,13,2022-08-08 23:06:40
+currency_type,str,342,6.0,3,USD
+duration,float64,2,0.0,105,300.0
+duration_type,str,4,0.1,6,Minutes
+fee,float64,3,0.1,101,0.0
+image_link,str,8,0.1,3769,https://www.clipartkey.com/mpngs/m/56-563364_business-competition-competition-icon.png
+is_archived,object,5205,90.8,2,True
+is_auto_approve,object,2,0.0,2,True
+last_date_to_apply,datetime64[ms],4,0.1,18,2023-07-22 04:26:40
+location,str,1441,25.1,14,Work From Home
+long_description,str,346,6.0,892,"Your future is in your hands, truly. Ideate and innovate a product that will be one of the solutions to future office spaces. Use the problem-solving skills to find out what is missing in today's offices that you would like to create. Grab this opportunity to challenge yourself to think outside the box. Participate now! Your ideas are safe with us! Guidelines Do's Send the entries strictly in PPT, PDF or MP4 form. Strictly adhere to the topic. All ideas must be original. Photo/Video must be clear with description. Don'ts Plagiarized content will be disqualified. Explicit content senders will be barred from participating in all GS contests. Submit only once. Judging criteria Entries will be judged solely on the basis of originality and practicality of the ideas adhering to the topic of the competition."
+microscholarship,float64,3,0.1,159,500.0
+modified_at,datetime64[ms],2,0.0,11,2023-07-22 04:26:40
+name,str,3,0.1,5567,Mini Saga 3.0
+role,str,4635,80.9,10,Tester
+role_responsibility,str,4654,81.2,85,"Leading and mentoring a group of 5-10 students from around the world. Conducting virtual meetings, interacting and following up with interns Creating meaningful data reports"
+short_description,str,3,0.1,835,Express yourself in 50-words!
+summary,str,5532,96.5,82,cc
+is_likely_test_data,bool,0,0.0,2,False
+has_badge,bool,0,0.0,2,True
+has_career_addon,bool,0,0.0,2,False
+has_panellist,bool,0,0.0,2,False
+has_dropout_transaction,bool,0,0.0,2,False
+has_not_started_transaction,bool,0,0.0,2,False
+num_cohorts,int64,0,0.0,16,1
+num_eligibility_criteria,int64,0,0.0,13,4
+num_rewards,int64,0,0.0,17,3
+num_testimonials,int64,0,0.0,16,3
+num_tracking_questions,int64,0,0.0,18,0
